@@ -1,6 +1,6 @@
 /*... Navigation ...*/
 .navbar-nav{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: 500;
 }
 
@@ -26,3 +26,8 @@
 .icon-3{
 	color: #234CA5;
 }
+
+/*###Two columns section ###*/
+.btn-primary{
+	background-color: #853894 !important;
+	border: none !important;
