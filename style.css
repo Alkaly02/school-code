@@ -3,3 +3,12 @@
 	font-size: 1.2em;
 	font-weight: 500;
 }
+
+/*### welcome-section ###*/
+.line{
+	width: 500px;
+	height: 3px;
+	background-color: #aaa;
+	margin: 30px auto;
+	border-radius: 5px;
+}
