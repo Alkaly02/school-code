@@ -12,3 +12,17 @@
 	margin: 30px auto;
 	border-radius: 5px;
 }
+
+/*### Three columns section*/
+[class*="icon"]{
+	font-size: 50px;
+}
+.icon-1{
+	color: #FF5B2B;
+}
+.icon-2{
+	color: #853894;
+}
+.icon-3{
+	color: #234CA5;
+}
