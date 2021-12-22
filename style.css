@@ -14,12 +14,42 @@
 }
 
 /*### carousel ###*/
-.carousel-caption h1{
+.caption-1{
+	position: absolute;
+	top: 40%;
+}
+.caption-2{
+	position: absolute;
+	top: 70%;
+}
+.caption-3{
+	position: absolute;
+	top: 20%;
+}
+.carousel-caption h1, .carousel-caption h5{
 	font-size: 5em;
-	font-weight: bold;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 1px 1px #000;
 }
 .carousel-caption p{
 	font-size: 2em;
+}
+
+/*### fixed section ###*/
+.fixed{
+	height: 550px;
+	background: url('img/mac.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*### emoji section ###*/
+.fun{
+	width: 100%;	font-size: 1em;
+	font-weight: bold;
+	border: 0.5px solid black;
+	padding: 0.3em;
 }
 
 /*### Three columns section*/
@@ -65,4 +95,29 @@ footer{
 	color: white;
 	font-size: 1em;
 	padding-top: 1.1em !important;
+}
+
+
+@media(max-width: 995px){
+	.carousel-caption{
+		top: 20%;
+	}
+	.caption-2{
+		font-size: 0.5em;
+		top: 10%
+	}
+	.caption-3{
+		top: 20%;
+		font-size: 0.6em;
+	}
+}
+
+@media(max-width: 567px){
+	#connect a{
+		font-size: 40px;
+	}
+	.social-icons{
+		display: flex;
+		justify-content: space-evenly;
+	}
 }
