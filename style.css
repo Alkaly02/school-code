@@ -31,3 +31,21 @@
 .btn-primary{
 	background-color: #853894 !important;
 	border: none !important;
+}
+
+/*### connect-section ###*/
+.facebook{
+	color: #375D81;
+}
+.twitter{
+	color: #5EB6DD;
+}
+.google{
+	color: red;
+}
+.instagram{
+	color: #aaa;
+}
+.youtube{
+	color: red;
+}
